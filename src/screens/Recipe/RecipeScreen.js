@@ -55,7 +55,7 @@ export default function RecipeScreen(props) {
   const onPressIngredient = (item) => {
     var name = getIngredientName(item);
     let ingredient = item;
-    navigation.navigate("Ingredient", { ingredient, name });
+    navigation.navigate("Ingredientes", { ingredient, name });
   };
 
   return (
@@ -96,7 +96,7 @@ export default function RecipeScreen(props) {
         <View style={styles.infoContainer}>
           <TouchableHighlight
             onPress={() =>
-              navigation.navigate("RecipesList", { category, title })
+              navigation.navigate("ReceitaList", { category, title })
             }
           >
             <Text style={styles.category}>
@@ -110,15 +110,15 @@ export default function RecipeScreen(props) {
             style={styles.infoPhoto}
             source={require("../../../assets/icons/time.png")}
           />
-          <Text style={styles.infoRecipe}>{item.time} minutes </Text>
+          <Text style={styles.infoRecipe}>{item.time} minutos </Text>
         </View>
 
         <View style={styles.infoContainer}>
           <ViewIngredientsButton
             onPress={() => {
               let ingredients = item.ingredients;
-              let title = "Ingredients for " + item.title;
-              navigation.navigate("IngredientsDetails", { ingredients, title });
+              let title = "Ingredientes para " + item.title;
+              navigation.navigate("IngredientesDetales", { ingredients, title });
             }}
           />
         </View>

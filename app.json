@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Instafood",
-    "slug": "instafood-recipes-app",
-    "description": "React Native Recipes App Demo. Download source code for free at https://www.instamobile.io . You can also check out the Swift version at https://www.iosapptemplates.com and the Kotlin version at https://www.instakotlin.com .",
+    "name": "Mangút",
+    "slug": "mangut-app",
+    "description": "App de receitas pensando para a facil navegação e uso, sem deixar de lado a estica, feito por brasileiros e com nome inspirado na cultura o originaria do Brasil, Mangút é a palavra para comida na língua indígena Krenak/Tupi-Guarani.",
     "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,7 +11,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffb361"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,16 +20,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.AryPassos.Mangut", 
+      "buildNumber": "1.0.0" 
     },
     "android": {
+      "package": "com.AryPassos.Mangut",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#ffb361"
+
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }

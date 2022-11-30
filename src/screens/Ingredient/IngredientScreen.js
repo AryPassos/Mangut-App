@@ -17,12 +17,12 @@ export default function IngredientScreen(props) {
   }, []);
 
   const onPressRecipe = (item) => {
-    navigation.navigate("Recipe", { item });
+    navigation.navigate("Receita", { item });
   };
 
   const renderRecipes = ({ item }) => (
-    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressRecipe(item)}>
-      <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressRecipe(item)}>
+    <TouchableHighlight underlayColor="rgba(255, 179, 97,0.9)" onPress={() => onPressRecipe(item)}>
+      <TouchableHighlight underlayColor="rgba(255, 179, 97,0.9)" onPress={() => onPressRecipe(item)}>
         <View style={styles.container}>
           <Image style={styles.photo} source={{ uri: item.photo_url }} />
           <Text style={styles.title}>{item.title}</Text>
@@ -37,7 +37,7 @@ export default function IngredientScreen(props) {
       <View style={{ borderBottomWidth: 0.4, marginBottom: 10, borderBottomColor: "grey" }}>
         <Image style={styles.photoIngredient} source={{ uri: "" + ingredientUrl }} />
       </View>
-      <Text style={styles.ingredientInfo}>Recipes with {ingredientName}:</Text>
+      <Text style={styles.ingredientInfo}>Receitas com {ingredientName}:</Text>
       <View>
         <FlatList vertical showsVerticalScrollIndicator={false} numColumns={2} data={getRecipesByIngredient(ingredientId)} renderItem={renderRecipes} keyExtractor={(item) => `${item.recipeId}`} />
       </View>

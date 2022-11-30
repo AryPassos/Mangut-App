@@ -25,13 +25,13 @@ function MainNavigator() {
           }
       }}
     >
-      <Stack.Screen name='Home' component={HomeScreen} />
-      <Stack.Screen name='Categories' component={CategoriesScreen}/>
-      <Stack.Screen name='Recipe' component={RecipeScreen}/>
-      <Stack.Screen name='RecipesList' component={RecipesListScreen} />
-      <Stack.Screen name='Ingredient' component={IngredientScreen} />
-      <Stack.Screen name='Search' component={SearchScreen} />
-      <Stack.Screen name='IngredientsDetails' component={IngredientsDetailsScreen} />
+      <Stack.Screen name='Inicio' component={HomeScreen} />
+      <Stack.Screen name='Categorias' component={CategoriesScreen}/>
+      <Stack.Screen name='Receita' component={RecipeScreen}/>
+      <Stack.Screen name='ReceitaList' component={RecipesListScreen} />
+      <Stack.Screen name='Ingredientes' component={IngredientScreen} />
+      <Stack.Screen name='Pesquisar' component={SearchScreen} />
+      <Stack.Screen name='IngredientesDetales' component={IngredientsDetailsScreen} />
     </Stack.Navigator>
   )
 } 

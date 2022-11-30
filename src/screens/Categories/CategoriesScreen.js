@@ -30,15 +30,15 @@ export default function CategoriesScreen(props) {
   const onPressCategory = (item) => {
     const title = item.name;
     const category = item;
-    navigation.navigate("RecipesList", { category, title });
+    navigation.navigate("ReceitaList", { category, title });
   };
 
   const renderCategory = ({ item }) => (
-    <TouchableHighlight underlayColor="rgba(73,182,77,0.9)" onPress={() => onPressCategory(item)}>
+    <TouchableHighlight underlayColor="rgba(255, 179, 97,0.9)" onPress={() => onPressCategory(item)}>
       <View style={styles.categoriesItemContainer}>
         <Image style={styles.categoriesPhoto} source={{ uri: item.photo_url }} />
         <Text style={styles.categoriesName}>{item.name}</Text>
-        <Text style={styles.categoriesInfo}>{getNumberOfRecipes(item.id)} recipes</Text>
+        <Text style={styles.categoriesInfo}>{getNumberOfRecipes(item.id)} receitas</Text>
       </View>
     </TouchableHighlight>
   );

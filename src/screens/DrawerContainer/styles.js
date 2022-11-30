@@ -1,17 +1,21 @@
 import { StyleSheet } from 'react-native';
+import { color } from 'react-native-reanimated';
 
 const styles = StyleSheet.create({
   content: {
     flex: 1,
-    flexDirection: 'row',
+    //flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: '#ffb361'
   },
   container: {
     flex: 1,
-    alignItems: 'flex-start',
-    paddingHorizontal: 20
-  }
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 20,
+    marginBottom: 300
+  },
 });
 
 export default styles;

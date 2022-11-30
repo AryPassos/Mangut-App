@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     fontSize: 19,
     fontWeight: 'bold',
     margin: 10,
-    color: '#2cd18a'
+    color: '#ffb361'
   },
   infoDescriptionRecipe: {
     textAlign: 'left',

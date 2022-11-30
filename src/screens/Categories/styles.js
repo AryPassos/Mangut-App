@@ -6,10 +6,11 @@ const styles = StyleSheet.create({
     margin: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    height: 215,
+    height: 220,
     borderColor: '#cccccc',
     borderWidth: 0.5,
     borderRadius: 20,
+    backgroundColor: '#fac387'
   },
   categoriesPhoto: {
     width: '100%',

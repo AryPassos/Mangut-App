@@ -1,328 +1,366 @@
 export const categories = [
   {
+    id: 0,
+    name: 'Comida Indigena',
+    photo_url: 'https://canaltres.com.br/wp-content/uploads/2022/06/comida-indigena-1024x819.jpeg'
+  },
+  {
+    id: 1,
+    name: 'Comida Brasileira',
+    photo_url: 'https://live.mrf.io/statics/i/ps/cdn.falauniversidades.com.br/wp-content/uploads/2019/10/comida-brasileira.jpg?width=1200&enable=upscale'
+  },
+  {
+    id: 2,
+    name: 'Comida Mexicana',
+    photo_url: 'https://www.dicasdemulher.com.br/wp-content/uploads/2021/08/comida-mexicana-00.png'
+  },
+  {
     id: 3,
+    name: 'Comida Italiana',
+    photo_url:
+      'https://www.remessaonline.com.br/blog/wp-content/uploads/2022/05/culinaria-italiana-1170x762.jpg.webp'
+  },
+  {
+    id: 4,
     name: 'Doces',
     photo_url:
     'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
   },
   {
-    id: 1,
-    name: 'Comida Mexicana',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
-  },
-  {
-    id: 2,
-    name: 'Comida Italiana',
-    photo_url:
-      'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
-  },
-  {
-    id: 4,
+    id: 5,
     name: 'Smoothies',
     photo_url:
     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
-  },
-  {
-    id: 0,
-    name: 'Pizza',
-    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
   },
 ];
 
 export const recipes = [
   {
-    recipeId: 122,
-    categoryId: 3,
-    title: 'Biscoito de milho',
-    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    recipeId: 12,
+    categoryId: 0,
+    title: 'Farofa de banana da terra',
+    photo_url: 'https://www.guiadasemana.com.br/contentFiles/image/opt_w1180h738/2018/09/FEA/57813_shutterstock-739904824.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://www.guiadasemana.com.br/contentFiles/image/opt_w1180h738/2018/09/FEA/57813_shutterstock-739904824.jpg',
+      'https://s2.glbimg.com/mbZEezXCCvdoHXaX2jFxbpBC0AU=/0x0:588x447/984x0/smart/filters:strip_icc()/s.glbimg.com/po/rc/media/2012/06/13/15/53/16/218/DSC02849.jpg',
+      'https://cooknenjoy.com/wp-content/uploads/2020/12/farofa-de-banana-02.jpg'
     ],
-    time: '20',
+    time: 20,
     ingredients: [
-      [0, '200ml'], 
-      [1, '5g'],
-      [7, '5g'], 
-      [2, '300g']],
+      [42, '2 colheres de sopa'],
+      [0, 'a gosto'],
+      [1, 'a gosto'],
+      [36, '1'],
+      [90, '500 g'],
+      [59, '3']
+    ],
     description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+      'Descasque e corte as bananas da terra em cruz, não muito fina.\n\nFrite-as até dourar e reserve. Na mesma panela, retire o excesso de óleo, coloque a manteiga, doure a cebola picadinha, junte a banana frita, mexendo e adicionando a farinha de mandioca aos poucos.\n\nProve o sal e continue mexendo, mais ou menos, por uns três minutos até que a farofa fique homogênea.'
   },
   {
-    recipeId: 3,
-    categoryId: 4,
-    title: 'Triple Berry Smoothie',
-    photo_url:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
+    recipeId: 13,
+    categoryId: 0,
+    title: 'Banana assada',
+    photo_url: 'https://www.guiadasemana.com.br/contentFiles/image/opt_w1180h738/2018/09/FEA/57813_shutterstock-540033550.jpg',
     photosArray: [
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
-      'https://www.vitamix.com/media/other/images/xVitamix-Triple-Berry-Smoothie-square-crop__1.jpg.pagespeed.ic.OgTC3ILD3R.jpg',
-      'http://images.media-allrecipes.com/userphotos/960x960/3798204.jpg',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrzui8MM6W66I29VZwVvcjpGv99JW3O1owgupc3KwB65rhAyrZ'
+      'https://www.guiadasemana.com.br/contentFiles/image/opt_w1180h738/2018/09/FEA/57813_shutterstock-540033550.jpg',
+      'https://ruralea.com/wp-content/uploads/2022/06/8d9a2eb6e0498a10f7f4873547f85efd_banana-frita-receitas-nestle-min-1-min-e1655653339443.jpg',
+      'https://dicasturismo.com.br/wp-content/uploads/2022/05/banana-assada-com-canela-1.jpeg'
     ],
-    time: '10',
+    time: 20,
     ingredients: [
       [59, '1'],
-      [60, '1/2 lbs'],
-      [61, '1/2 liters'],
-    ],
-    description: 'In a blender, combine all ingredients and blend until smooth. Then divide between 2 cups and top with blackberries, if desired.'
-  },
-  {
-    recipeId: 2,
-    categoryId: 3,
-    title: 'Biscoito vegano',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
-    photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
-      'https://ichef.bbci.co.uk/news/660/cpsprodpb/B2C0/production/_106106754_vegnuggets976.jpg',
-      'https://pixel.nymag.com/imgs/daily/grub/2017/11/22/22-mcds-chicken-tenders.w330.h330.jpg',
-      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
-    ],
-    time: '30',
-    ingredients: [
-      [0, '2 litros'],
-      [16, '1'],
-      [12, '1 xicará'],
-      [18, '1 xicará'],
-      [19, '1 teaspoon'],
-      [1, '2 teaspoons'],
-      [4, '1/4 teaspoons'],
-      [7, '1/8 teaspoons'],
-      [20, '1/2 teaspoons'],
-      [21, '4']
+      [67, '1 colher de sopa'],
+      [92, '1 colher de chá'],
+      [93, '100 ml'],
+      [94, 'a gosto']
     ],
     description:
-      '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
+      'Corte a banana ao meio. Misture o açúcar e a canela com o licor e passe nas duas partes da banana.\n\nLeve ao forno com a temperatura média de 150º até caramelizar.\n\nSirva com sorvete.'
   },
   {
-    recipeId: 3,
-    categoryId: 3,
-    title: 'Pumpkin Spice Cookies',
-    photo_url:
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
+    recipeId: 14,
+    categoryId: 0,
+    title: 'Moqueca de peixe',
+    photo_url: 'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/9ae6e28383dc732ba697d21aaa71edbf.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
-      'https://cdn.junglecreations.com/wp/junglecms/2018/07/4164c5bd-wide-thumbnail.jpg',
-      'https://pinchofyum.com/wp-content/uploads/Crunchwrap-Inside.jpg',
-      'https://monsonmadethis.com/wp-content/uploads/2017/10/IMG_20171015_161017_025-e1533869302263.jpg'
+      'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/9ae6e28383dc732ba697d21aaa71edbf.jpg',
+      'https://www.leiliane.com.br/wp-content/uploads/2017/08/moqueca_baiana_1.jpg',
+      'https://img.taste.com.au/bGVvI3El/taste/2016/11/moqueca-de-peixe-57539-1.jpeg'
     ],
-    time: '45',
+    time: 60,
     ingredients: [
-      [0, '2 tablespoons'],
-      [22, '1/2'],
-      [23, '2 tablespoons'],
-      [7, '2 cloves'],
-      [3, '1 teaspoon'],
-      [24, '1 tablespoon'],
-      [25, '1 lb'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons'],
-      [26, '15 oz'],
-      [27, '8'],
-      [28, '2'],
-      [29, '1 cup']
+      [33, '4 postas'],
+      [30, 'suco de 1'],
+      [36, '1'],
+      [37, '1'],
+      [38, '1'],
+      [53, '2'],
+      [56, '2 colheres de sopa'],
+      [88, '200 ml'],
+      [89, '1 colher de sopa'],
+      [91, '400 ml']
     ],
     description:
-      '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
+      'Lave o peixe, regue-o com o suco de limão e deixe tomar gosto por cerca de 1 hora.\n\nNuma panela grande arrume o peixe, a cebola, os pimentões e os tomates. Polvilhe o coentro.\n\nEsfarele os tabletes de caldo de camarão, misture-os ao leite de coco e regue o peixe. Leve ao fogo baixo, com a panela parcialmente tampada, por 20 minutos. De vez em quando mexa com cuidado.\n\nJunte o azeite-de-dendê, prove os temperos e adicione sal, se preciso.\n\nRetire do fogo e sirva.'
   },
-  {
-    recipeId: 1,
-    categoryId: 3,
-    title: 'Brownies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
-    photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
-      'https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg',
-      'http://www.recipe4living.com/assets/itemimages/400/400/3/83c29ac7418067c2e74f31c8abdd5a43_477607049.jpg',
-      'https://www.franchisechatter.com/wp-content/uploads/2014/08/KFC-Photo-by-James.jpg'
-    ],
-    time: '30',
-    ingredients: [
-      [1, '2 tablespoons'],
-      [3, '1 tablespoon'],
-      [4, '1 teaspoon'],
-      [5, '1/2 teaspoons'],
-      [6, '1/2 teaspoons'],
-      [7, '1/2 teaspoons'],
-      [8, '1/2 teaspoons'],
-      [9, '1/2 teaspoons'],
-      [10, '1/2 teaspoons'],
-      [11, '1/2 teaspoons'],
-      [12, '1/2 cups'],
-      [13, '1 tablespoon'],
-      [14, '1 tablespoon'],
-      [15, '2 breasts, 2 thighs, 2 drumsticks, 2 wings'],
-      [16, '1'],
-      [17, '2 quarts']
-    ],
-    description:
-      '-- Preheat fryer to 350°F. Thoroughly mix together all spices. Combine spices with flour, brown sugar and salt. Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture. Turn a few times and make sure the flour mix is really stuck to the chicken.\n\n -- Repeat with all the chicken pieces. Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit. Fry chicken in batches. Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes. Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F. Let chicken drain on a few paper towels when it comes out of the fryer. Serve hot.'
-  },
+  
   {
     recipeId: 4,
-    categoryId: 1,
-    title: 'Perfect Fish Tacos',
-    photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
+    categoryId: 2,
+    title: 'Tacos',
+    photo_url: 'https://img.freepik.com/fotos-gratis/angulo-alto-do-conceito-de-comida-mexicana_23-2148629376.jpg?size=626&ext=jpg',
     photosArray: [
-      'http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/04/WGC-Fish-Tacos-copy-2.jpg',
-      'https://thecozyapron.com/wp-content/uploads/2018/03/baja-fish-tacos_thecozyapron_1.jpg',
-      'https://www.simplyrecipes.com/wp-content/uploads/2017/06/2017-07-22-FishTacos-6.jpg'
+      'https://img.freepik.com/fotos-gratis/angulo-alto-do-conceito-de-comida-mexicana_23-2148629376.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-premium/conceito-de-comida-saborosa-com-taco-em-fundo-bege_185193-68794.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-gratis/tacos-mexicanos-com-carne-em-molho-de-tomate-e-salsa_2829-14227.jpg?w=1380&t=st=1669218678~exp=1669219278~hmac=ff2b18c26b156639745b4dc486f2013d519e042e55d7aa7b23857b9eab26e1fa'
     ],
     time: '35',
     ingredients: [
-      [30, 'jucie of 1 '],
-      [24, '2 teaspoons'],
-      [0, '3 tablespoons'],
-      [3, '1 teaspoon'],
-      [31, '1/2 teaspoons'],
-      [32, '1/2 teaspoons'],
-      [4, '2 teaspoons'],
-      [33, '1/2 lb'],
-      [27, '8'],
-      [14, '2 teasponns'],
-      [34, '1']
+      [27, '10'],
+      [25, '400 g'],
+      [0, '1 colher de chá'],
+      [36, '2'],
+      [4, 'a gosto'],
+      [23, '4 colheres de sopa'],
+      [74, '2 colheres de sopa'],
+      [26, '2 xícaras'],
+      [46, '150 g'],
+      [1, 'a gosto']
     ],
     description:
-      '-- In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne. Add cod, tossing until evenly coated. Let marinate 15 minutes. Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper.\n\n -- In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side.\n\n -- Let rest 5 minutes before flaking with a fork. Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream. '
+      'Grelhe as tortilhas em um frigideira quente, sem que fique quebradiça.\n\nDoure a cebola, depois a carne moída, em seguida coloque o extrato de tomate, a mostarda, pimenta, sal e diexe apurar por uns 10 minutos.\n\nBata no liquidificador com um pouco do próprio caldo o feijão.\n\nEm seguida, quando o molho estiver quase seco, despeje o feijão e após o queijo mussarela.\n\nDeixe cozer até ficar com consistência de pasta, bem grossa.\n\nO Chilli deve ficar bem picante. Sirva quente.'
   },
   {
     recipeId: 5,
     categoryId: 1,
-    title: 'Chicken Fajitas',
+    title: 'Strogonoff de frango',
     photo_url:
-      'https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Flavorful-Chicken-Fajitas_EXPS_GHBZ18_12540_B08_15_8b.jpg',
+      'https://img.freepik.com/fotos-premium/estrogonofe-de-frango-acompanhado-de-arroz-salada-e-palha-de-batata_261158-1189.jpg?size=626&ext=jpg',
     photosArray: [
-      'https://dadwithapan.com/wp-content/uploads/2015/07/Spicy-Chicken-Fajitas-22-1200x480.jpg',
-      'https://3.bp.blogspot.com/-X-dHj7ORF9Q/XH4ssgTuSZI/AAAAAAAAEig/E46HP9wCfdsvyJFcMTX30cw-ICep8lF9ACHMYCw/s1600/chicken-fajitas-mexican-food-id-149559-buzzerg.jpg',
-      'https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/201403-xl-chipotle-chicken-fajitas.jpg?itok=ghVcI5SQ'
+      'https://img.freepik.com/fotos-premium/estrogonofe-de-frango-acompanhado-de-arroz-salada-e-palha-de-batata_261158-1189.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-premium/strogonoff-de-frango-e-um-prato-originario-da-culinaria-russa-que-no-brasil-e-composto-de-creme-de-leite-com-extrato-de-tomate-arroz-e-batata-frita_59529-775.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-premium/estrogonofe-de-carne-saborosa-em-superficie-cinza_392895-14426.jpg?size=626&ext=jpg'
     ],
     time: 35,
     ingredients: [
-      [9, '1/2 teaspoons'],
-      [0, '4 tablespoons'],
-      [1, '1/2 teaspoons'],
-      [30, '2 tablespoons'],
-      [31, '1 teaspoon'],
-      [7, '1 teaspoon'],
-      [24, '1/2 teaspoons'],
-      [3, '1/2 teaspoons'],
-      [21, '1 pound'],
-      [22, '1/2 cup'],
-      [27, '6'],
-      [36, '4'],
-      [37, '1/2'],
-      [38, '1/2']
+      [21, '3'],
+      [51, '1 dente'],
+      [1, 'a gosto'],
+      [4, 'a gosto'],
+      [36, '1'],
+      [75, '2 colheres de sopa'],
+      [42, '1 colher de sopa'],
+      [40, '1/2 xícara'],
+      [73, '1/3 xícara'],
+      [74, '1 xícara'],
+      [43, '1 caixa'],
+      [76, 'a gosto']
     ],
     description:
-      '-- In a large bowl, combine 2 tablespoons oil, lemon juice and seasonings; add the chicken. Turn to coat; cover. Refrigerate for 1-4 hours In a large skillet, saute peppers and onions in remaining oil until crisp-tender. Remove and keep warm. Drain chicken, discarding marinade. In the same skillet, cook chicken over medium-high heat for 5-6 minutes or until no longer pink.\n\n -- Return pepper mixture to pan; heat through. Spoon filling down the center of tortillas; fold in half. Serve with toppings as desired.'
+      'Em uma panela, misture o frango cortado em cubos, o alho, a maionese, o sal e a pimenta.\n\nEm uma frigideira grande, derreta a manteiga e doure a cebola.\n\nJunte o frango temperado até que esteja dourado.\n\nAdicione os cogumelos, o ketchup e a mostarda.\n\nIncorpore o creme de leite e retire do fogo antes de ferver.\n\nSirva com arroz branco e batata palha.'
   },
   {
     recipeId: 6,
-    categoryId: 2,
-    title: 'Buffalo Pizza',
+    categoryId: 3,
+    title: 'Massa de pizza',
     photo_url:
-      'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+      'https://img.freepik.com/fotos-gratis/pedacos-de-massa-de-pizza_23-2148570342.jpg?w=1480&t=st=1669218261~exp=1669218861~hmac=ac36ab97a40fae1ef3883d190d1634766437021d4ce9d582c7b41ba7c184a48a',
     photosArray: [
-      'https://www.tablefortwoblog.com/wp-content/uploads/2019/01/buffalo-chicken-pizza-recipe-photos-tablefortwoblog-3-500x500.jpg',
-      'http://pizzachoicema.com/wp-content/uploads/2018/08/Buffalo-Chicken-Pizza.jpg',
-      'https://static1.squarespace.com/static/565bb41ae4b0509ba9fdf769/t/5b9a8e80aa4a998b0be0fcf4/1536855690622/pizza.gif'
+      'https://img.freepik.com/fotos-gratis/pedacos-de-massa-de-pizza_23-2148570342.jpg?w=1480&t=st=1669218261~exp=1669218861~hmac=ac36ab97a40fae1ef3883d190d1634766437021d4ce9d582c7b41ba7c184a48a',
+      'https://t4.ftcdn.net/jpg/03/34/14/99/240_F_334149986_HrtCrFlTQrOYH9QGYNjLG0VFqiqIrrBz.jpg',
+      'https://img.freepik.com/fotos-gratis/massa-de-pizza-ao-lado-de-queijo-polvilha-tomate-de-milho-verde-oliva-e-pimentao-em-fundo-preto-de-madeira_141793-1941.jpg?w=1380&t=st=1669218362~exp=1669218962~hmac=ab7515914d39882862923428908e9a4a81cf6d0fc3c968b6ce9cae2dcd81fddd'
     ],
     time: 50,
     ingredients: [
-      [39, '1 lb'],
-      [40, '1 cup'],
-      [41, '1/2 cup'],
-      [42, '1/4 cup'],
-      [43, '2 tablespoons'],
-      [44, '1/2 cup'],
-      [7, '1/4 teaspoons'],
-      [5, '1/4 teaspoons'],
-      [30, '1/4 teaspoons'],
-      [45, '2 oz'],
-      [12, 'for dusting'],
-      [4, '1/2 teaspoons'],
-      [47, '2'],
-      [46, '9 oz']
+      [12, '1 kg'],
+      [77, '30 g'],
+      [18, '3 xícaras'],
+      [42, '3/4 de xícara'],
+      [1, '1 colher de chá'],
+      [44, '1 colher de chá'],
+      [78, '1 colher de sopa']
     ],
     description:
-      '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
+      'Misture o fermento, o sal e o açúcar em um pouco de água morna, até que o fermento esteja completamente dissolvido.\n\nEm seguida, adicione metade da medida de farinha de trigo, o óleo e mexa até criar uma consistência pastosa.\n\nAcrescente o restante da farinha de trigo, a pinga, a água morna e misture bem.\n\nAssim que a massa desgrudar das mãos, deixe crescer por 30 minutos.\n\nAbra os discos, fure a massa com um garfo e pincele o molho.\n\nLeve ao forno médio (180° C), preaquecido, por 15 minutos.'
   },
   {
     recipeId: 0,
-    categoryId: 0,
-    title: 'Classic Lasagna',
-    photo_url: 'https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg',
+    categoryId: 3,
+    title: 'Lasanha',
+    photo_url: 'https://img.freepik.com/fotos-premium/lasanha-italiana-com-molho-a-bolonhesa-e-carne-moida-de-vaca_89816-21582.jpg?size=626&ext=jpg',
     photosArray: [
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      "https://img.freepik.com/fotos-premium/lasanha-italiana-com-molho-a-bolonhesa-e-carne-moida-de-vaca_89816-21582.jpg?size=626&ext=jpg",
+      'https://img.freepik.com/fotos-gratis/lasanha-classica-com-molho-a-bolonhesa_2829-11251.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-gratis/lasagna-saborosa-em-um-recipiente-vermelho_1205-31.jpg?size=626&ext=jpg'
     ],
-    time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    time: '55',
+    ingredients: [
+      [52, '10 folhas'], 
+      [48, '60 g'], 
+      [81, '900ml'],
+      [12, '50 g'], 
+      [80, 'a gosto'], 
+      [79, '400 g'],
+      [42, '50 g'], 
+      [1, 'a gosto']
+    ],
     description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+      'Prepare o molho bechamel: derreta a manteiga, adicione a farinha, misture bem e adicione o leite a ferver com uma pitada de sal e a noz moscada. Deixe ferver e reserve.\n\nUnte um tabuleiro pirex com manteiga e monte a lasanha: coloque um pouco de bechamel no fundo do tabuleiro e vá alternando com camadas de massa seca, bechamel, molho Bolonhesa e Parmesão ralado. A última camada deverá levar Bolonhesa, bechamel e Parmesão ralado.\n\nLeve ao forno a 180 °C durante 20 minutos. Deixe repousar fora do forno durante 10 minutos e sirva.'
   },
   {
     recipeId: 7,
-    categoryId: 2,
-    title: 'Spaghetti Carbonara',
-    photo_url: 'https://truffle-assets.imgix.net/655ce202-862-butternutsquashcarbonara-land.jpg',
+    categoryId: 3,
+    title: 'Carbonara',
+    photo_url: 'https://img.freepik.com/fotos-premium/massa-carbonara-com-creme-de-queijo-de-bacon-e-pimenta-closeup-sobre-fundo-cinza-comida-italiana-tradicional_166116-5385.jpg?w=1380',
     photosArray: [
-      'https://ak3.picdn.net/shutterstock/videos/10431533/thumb/10.jpg',
-      'https://www.kcet.org/sites/kl/files/styles/kl_image_large/public/thumbnails/image/square_hero_desktop_2x_sfs_spaghetti_carbonara_clr-3.jpg?itok=T-rsBDIZ',
-      'https://cdn-image.foodandwine.com/sites/default/files/HD-201104-r-spaghetti-with-anchovy.jpg'
+      'https://img.freepik.com/fotos-premium/massa-carbonara-com-creme-de-queijo-de-bacon-e-pimenta-closeup-sobre-fundo-cinza-comida-italiana-tradicional_166116-5385.jpg?w=1380',
+      'https://img.freepik.com/fotos-premium/macarrao-linguini-com-molho-carbonara-classico-em-fundo-cinza-comida-italiana-tradicional-espaco-de-vista-lateral-para-copiar_166116-5367.jpg?w=1480',
+      'https://img.freepik.com/fotos-gratis/spaghetti-carbonara_1203-8910.jpg?w=1380&t=st=1669217928~exp=1669218528~hmac=7f960be0885f42d3bf71d6ff6d801d96598d052a69717fc53717cac981229d11'
     ],
     time: 15,
     ingredients: [
+      [82, '150g'],
       [48, '50g'],
-      [49, '100g'],
-      [50, '350g'],
-      [51, '2 plump'],
-      [42, '50g'],
       [16, '3'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons']
+      [4, 'a gosto'],
+      [1, 'a gosto'],
+      [83, '300g']
     ],
     description:
-      '-- Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side. Cut any hard skin off the pancetta and set aside, then chop the meat. Cook the spaghetti in a large pan of boiling salted water until al dente.\n\n -- Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, or use 1 tablespoon of oil instead), then place over a medium-high heat. Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, then cook for 4 minutes, or until it starts to crisp up. Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti.\n\n -- Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat. Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture – the pan will help to cook the egg gently, rather than scrambling it. Toss well, adding more cooking water until it’s lovely and glossy. Serve with a grating of Parmesan and an extra twist of pepper.'
+      'Frite bem o bacon, até ficar crocante.\n\nColoque o macarrão para cozinhar em água e sal.\n\nNo refratário onde será servido o macarrão, bata bem as gemas dos ovos com um garfo.\n\nTempere com sal e pimenta a gosto, e junte o queijo ralado, também a gosto.\n\nQuando o macarrão estiver pronto, escorra e coloque (bem quente) sobre a mistura de ovos com uma concha da água do cozimento do macarrão, misture bem.\n\nColoque o bacon, ainda quente, sobre o macarrão e sirva.'
   },
   {
     recipeId: 8,
-    categoryId: 2,
-    title: 'Lazania',
-    photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
+    categoryId: 0,
+    title: 'Açai',
+    photo_url: 'https://img.freepik.com/fotos-premium/iogurte-congelado-brasileiro-em-uma-tigela-acompanhado-de-frutas-tropicais_261158-1762.jpg?size=338&ext=jpg',
     photosArray: [
-      'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
-      'https://truffle-assets.imgix.net/87f324e4-YOUTUBE-NO-TXT.00_03_19_14.Imagen_fija001.jpg',
-      'https://images4.alphacoders.com/817/817350.jpg'
+      'https://img.freepik.com/fotos-premium/iogurte-congelado-brasileiro-em-uma-tigela-acompanhado-de-frutas-tropicais_261158-1762.jpg?size=338&ext=jpg',
+      'https://img.freepik.com/fotos-premium/acai-tigela-de-sorvete-de-acai-congelado-brasileiro-vista-frontal-isolado_317399-524.jpg?size=338&ext=jpg',
+      'https://img.freepik.com/fotos-premium/acai-congelado-brasileiro-com-morango-e-banana-em-uma-tigela-branca-isolada-no-fundo-branco_317399-729.jpg?w=826'
     ],
     time: 60,
     ingredients: [
-      [36, '1 large'],
-      [25, '1 pound'],
-      [51, '5 cloves'],
-      [52, '1 pound'],
-      [53, '1 pound'],
-      [54, '1 28 ounce can'],
-      [23, '2 6 ounce can'],
-      [55, '2 tablespoons'],
-      [56, '1/4 cup'],
-      [10, '1/2 cup'],
-      [1, '1/2 teaspoons'],
-      [58, '1 teaspoon'],
-      [4, '1/4 teaspoons'],
-      [16, '1 large'],
-      [46, '1 pound'],
-      [48, '1 cup'],
-      [57, '30 ounces']
+      [59, '4'],
+      [84, '1 kg'],
+      [85, '250 ml']
     ],
     description:
-      '-- Cook noodles according to package directions; drain. Meanwhile, in a Dutch oven, cook sausage, beef and onion over medium heat 8-10 minutes or until meat is no longer pink, breaking up meat into crumbles. Add garlic; cook 1 minute. Drain. Stir in tomatoes, tomato paste, water, sugar, 3 tablespoons parsley, basil, fennel, 1/2 teaspoon salt and pepper; bring to a boil. Reduce heat; simmer, uncovered, 30 minutes, stirring occasionally. In a small bowl, mix egg, ricotta cheese, and remaining parsley and salt. Preheat oven to 375°. Spread 2 cups meat sauce into an ungreased 13x9-in. baking dish. Layer with 3 noodles and a third of the ricotta mixture. Sprinkle with 1 cup mozzarella cheese and 2 tablespoons Parmesan cheese.\n\n -- Repeat layers twice. Top with remaining meat sauce and cheeses (dish will be full). Bake, covered, 25 minutes. Bake, uncovered, 25 minutes longer or until bubbly. Let stand 15 minutes before serving.'
+      'Bata a banana no liquidificador.\n\nJunte a polpa de açaí e o xarope de guaraná e bata até ficar homogêneo.\n\nSirva com frutas, granola, puro ou como desejar.'
+  },
+  {
+    recipeId: 122,
+    categoryId: 4,
+    title: 'Brigadeiro',
+    photo_url: 'https://img.freepik.com/fotos-premium/brigadeiro-de-chocolate-na-colher-de-pau-brigadeiro-tradicional-doce-brasileiro_434193-4884.jpg?size=626&ext=jpg',
+    photosArray: [
+      'https://img.freepik.com/fotos-premium/brigadeiro-de-chocolate-na-colher-de-pau-brigadeiro-tradicional-doce-brasileiro_434193-4884.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-premium/doce-tipico-brasileiro-chamado-brigadeiro_261158-510.jpg?size=626&ext=jpg',
+      'https://t3.ftcdn.net/jpg/04/50/20/24/240_F_450202421_MqlgOIksVgNlSW9I05UHI1WsfazfC0U0.jpg'
+    ],
+    time: '25',
+    ingredients: [
+      [42, '1 colher de sopa'], 
+      [64, '1 caixa'],
+      [62, '7 colheres de sopa'], 
+      [63, 'A gosto']],
+    description:
+    'Em uma panela funda, acrescente o leite condensado, a margarina e o achocolatado (ou 4 colheres de sopa de chocolate em pó).\n\nCozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela.\n\nDeixe esfriar e faça pequenas bolas com a mão passando a massa no chocolate granulado.'
+  },
+  {
+    recipeId: 3,
+    categoryId: 5,
+    title: 'Smoothie de morango e banana',
+    photo_url:
+      'https://img.freepik.com/fotos-gratis/batido-de-morango-e-banana-fresco-em-pote-na-mesa-de-madeira_123827-20782.jpg?w=1380&t=st=1669219307~exp=1669219907~hmac=77069da7617074eed038a559e86c60fd676f642f2f081376e2613c1f65bfb9a9',
+    photosArray: [
+      'https://img.freepik.com/fotos-gratis/batido-de-morango-e-banana-fresco-em-pote-na-mesa-de-madeira_123827-20782.jpg?w=1380&t=st=1669219307~exp=1669219907~hmac=77069da7617074eed038a559e86c60fd676f642f2f081376e2613c1f65bfb9a9',
+      'https://img.freepik.com/fotos-gratis/cocktail-rosa-gelado-e-morangos-frescos_144627-1119.jpg?w=1060&t=st=1669219347~exp=1669219947~hmac=44c4a7b3a08647c5614c89f9d1df4f3a23f2cf02eecd5337ee8fc470a1083d56',
+      'hhttps://img.freepik.com/fotos-gratis/batido-de-morango-e-banana-fresco-em-pote-na-mesa-de-madeira_123827-20832.jpg?w=1380&t=st=1669219383~exp=1669219983~hmac=426201f21d8ec38e8ff2f5d1eed9a836d184bd4b15a15dd24b6897d45381e38a'
+    ],
+    time: '10',
+    ingredients: [
+      [59, '1'], 
+      [60, '2 xícaras'],
+      [61, '1/3 de xícara'], 
+      [65, 'A gosto']],
+    description:
+    'Corte a banana e os morangos em pedaços menores.\n\nEm um liquidificador, coloque a banana, o morango, o iogurte, o gelo e bata bem.\n\nCaso precise, adicione um pouco de água para ajudar a bater.\n\nTransfira o smoothie para uma jarra e sirva. Bom apetite.'
+  },
+  {
+    recipeId: 2,
+    categoryId: 4,
+    title: 'Bolo de chocolate',
+    photo_url: 'https://img.freepik.com/fotos-premium/fatia-deliciosa-de-bolo-de-chocolate_434193-3776.jpg?size=626&ext=jpg',
+    photosArray: [
+      'https://img.freepik.com/fotos-premium/fatia-deliciosa-de-bolo-de-chocolate_434193-3776.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-gratis/vista-superior-da-fatia-de-bolo-de-chocolate-com-colher-e-hortela_23-2148689772.jpg?w=1380&t=st=1669219130~exp=1669219730~hmac=387c7f03d5cf907690c84cc6aee310c9522a43ebe303f9943dae7fc4896d0bd4',
+      'https://img.freepik.com/fotos-gratis/bolo-de-chocolate-vista-superior-pronto-para-ser-servido_23-2148622265.jpg?w=1380&t=st=1669219005~exp=1669219605~hmac=ee5800730ca498f2a99e5b29326df15807d4be7bb1eb97eea1c9852255e901fc'
+    ],
+    time: '45',
+    ingredients: [
+      [12, '2 xicarás'],
+      [67, '1 e 1/2 xicará'],
+      [62, '1 xicará'],
+      [66, '1/2 colher de chá'],
+      [0, '1 xicará'],
+      [16, '3'],
+      [18, '2 xicarás']
+    ],
+    description:
+      'Em um recipiente, misture a farinha de trigo, o açúcar, o achocolatado, o fermento e o bicarbonato peneirados.\n\nJunte o óleo, os ovos e a água fervente, misturando bem.\n\nDespeje a massa em uma forma de furo central (24 cm de diâmetro) untada com óleo e polvilhada com farinha de trigo, e leve ao forno médio (180°C), preaquecido, por 40 minutos.'
+  },
+  {
+    recipeId: 3,
+    categoryId: 4,
+    title: 'Cookies',
+    photo_url:
+      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
+    photosArray: [
+      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
+      'https://img.freepik.com/fotos-gratis/disposicao-da-vista-superior-dos-cookies_23-2148654538.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-gratis/grande-plano-seletivo-closeup-tiro-de-uma-pilha-de-biscoitos-de-chocolate-assados_181624-3607.jpg?size=626&ext=jpg'
+    ],
+    time: '45',
+    ingredients: [
+      [42, '125 g'],
+      [67, '3/4 de xicará'],
+      [13, '1/2 de xicará'],
+      [16, '1'],
+      [12, '1 e 3/4 de xícara'],
+      [68, '1 colher de chá'],
+      [70, '300 g'],
+      [69, '1 colher de chá']
+    ],
+    description:
+      'Misture a manteiga, açúcar mascavo, açúcar, essência de baunilha (e chocolate em pó, se for fazer cookies com base de chocolate).\n\nAdicione o ovo batido aos poucos e misture bem.\n\nAcrescente a farinha aos poucos e misture bem (pode ser na mão ou na batedeira planetária)\n\nPor último, adicione o fermento e misture só para incorporá-lo à massa.\n\nDepois da massa bem misturada, adicione o chocolate picado.\n\nForme bolinhas pequenas e asse em forno preaquecido, sobre papel manteiga, por aproximadamente 15 a 20 minutos (250° C).'
+  },
+  {
+    recipeId: 1,
+    categoryId: 4,
+    title: 'Brownies',
+    photo_url: 'https://img.freepik.com/fotos-premium/brownies-caseiros-no-prato-branco-com-cobertura-de-fudge-de-chocolate-sobre-fundo-de-madeira_6351-46.jpg?size=626&ext=jpg',
+    photosArray: [
+      'https://img.freepik.com/fotos-premium/brownies-caseiros-no-prato-branco-com-cobertura-de-fudge-de-chocolate-sobre-fundo-de-madeira_6351-46.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-gratis/foto-aerea-de-brownies-recem-assados-em-uma-placa-de-madeira_181624-23397.jpg?size=626&ext=jpg',
+      'https://img.freepik.com/fotos-premium/pedacos-de-bolo-brownie-servido-em-uma-mesa-branca-bolo-de-chocolate_130040-1332.jpg?size=626&ext=jpg'
+    ],
+    time: '40',
+    ingredients: [
+      [42, '6 colheres de sopa'],
+      [62, '3/4 de xícara'],
+      [71, '1/4 de xícara'],
+      [12, '1 e 1/4 de xícara'],
+      [67, '2 xícaras'],
+      [16, '4'],
+      [1, '2 pitadas'],
+      [69, '1 colher de chá'],
+      [70, '100 g'],
+      [72, '1/2 xícara']
+    ],
+    description:
+      'Misture os ovos e o açúcar.\n\nEm seguida, agregue todos os outros ingredientes até formar um creme uniforme.\n\nDespeje em uma assadeira, forrada com papel-manteiga e leve ao forno médio por 40 minutos.\n\nO brownie estará pronto quando a parte de cima estiver levemente corada e, ao se espetar um palito, ele esteja levemente úmido (devido ao chocolate derretido).\n\nCorte em quadrados ainda quente e sirva com uma bola de sorvete de creme, ou congele num saquinho para freezer.\n\nPara descongelar, coloque o brownie num prato de sobremesa e aqueça no micro-ondas, potência alta, por 1 minuto.'
   }
 ];
 
@@ -402,7 +440,7 @@ export const ingredients = [
     ingredientId: 13,
     name: 'Açucar mascavo',
     photo_url:
-      'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BALQTtekliuc6iu4u/rotating-brown-sugar-in-a-white-container-on-white-background_sis0xtbyl_thumbnail-full01.png'
+      'https://www.recetas.com/files/ingredient/thumb/a/azucar-moreno_5m8oh'
   },
   {
     ingredientId: 14,
@@ -412,7 +450,7 @@ export const ingredients = [
   },
   {
     ingredientId: 15,
-    name: 'Frango inteiro',
+    name: 'Frango',
     photo_url:
       'https://image.shutterstock.com/image-photo/two-raw-chicken-drumsticks-isolated-260nw-632125991.jpg'
   },
@@ -420,7 +458,7 @@ export const ingredients = [
     ingredientId: 16,
     name: 'Ovo',
     photo_url:
-      'https://image.shutterstock.com/image-photo/egg-whites-yolk-cup-isolated-260nw-1072453787.jpg'
+      'https://img.freepik.com/fotos-gratis/ovos-isolados-na-superficie-branca_463209-42.jpg?w=1380&t=st=1669403519~exp=1669404119~hmac=a94e5ed5320b096a46897a6f7b33dfc44fb96418743773499b33269db055c3d5'
   },
   {
     ingredientId: 17,
@@ -478,7 +516,7 @@ export const ingredients = [
     ingredientId: 26,
     name: 'Feijão',
     photo_url:
-      'https://www.seriouseats.com/images/2014/04/20140414-pile-of-beans-primary-1500x1125.jpg'
+      'https://img.freepik.com/fotos-gratis/misturar-feijoes_1339-256.jpg?w=1380&t=st=1669417503~exp=1669418103~hmac=cf778e57b4c4ab96cc53e154462982ca729ede198e1dca21ffc03a10a36a4e4a'
   },
   {
     ingredientId: 27,
@@ -568,7 +606,8 @@ export const ingredients = [
   {
     ingredientId: 42,
     name: 'Manteiga',
-    photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
+    photo_url: 
+    'https://img.freepik.com/fotos-premium/manteiga-na-chapa-branca-isolada-no-fundo-branco_93675-88185.jpg?size=626&ext=jpg'
   },
   {
     ingredientId: 43,
@@ -584,12 +623,12 @@ export const ingredients = [
   },
   {
     ingredientId: 45,
-    name: 'Queijo da prefencia',
+    name: 'Queijo',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/3619997/thumb/1.jpg'
   },
   {
     ingredientId: 46,
-    name: 'Muçarela',
+    name: 'Mussarela',
     photo_url:
       'https://t3.ftcdn.net/jpg/02/06/73/98/500_F_206739841_suPu6qDPHlowFqx9qo8fLqV8sNevL2g3.jpg'
   },
@@ -625,13 +664,13 @@ export const ingredients = [
     ingredientId: 52,
     name: 'Massa de lasanha ',
     photo_url:
-      'https://previews.123rf.com/images/velkol/velkol1110/velkol111000004/11083085-an-image-of-raw-lasagna-on-white-background.jpg'
+      'https://img.freepik.com/fotos-premium/folhas-de-lasanha-na-pilha-massa-de-lasanha-crua-isolada-no-fundo-branco-tracado-de-recorte_503274-2224.jpg?w=2000'
   },
   {
     ingredientId: 53,
-    name: 'Molho de tomate',
+    name: 'Tomate',
     photo_url:
-      'https://previews.123rf.com/images/arinahabich/arinahabich1504/arinahabich150400858/38827029-raw-italian-sausage-on-a-white-background-.jpg'
+      'https://img.freepik.com/fotos-premium/tomate-isolado-um-monte-de-vegetais-isolados-em-um-fundo-branco-com-um-tracado-de-recorte-dois-tomates-vermelhos-inteiros-meio-e-um-quarto_92795-1638.jpg?w=2000'
   },
   {
     ingredientId: 54,
@@ -647,7 +686,7 @@ export const ingredients = [
   },
   {
     ingredientId: 56,
-    name: 'salsa',
+    name: 'Salsa',
     photo_url:
       'https://t4.ftcdn.net/jpg/02/15/78/05/240_F_215780551_Eid0xpP1M2fokvuEcvJj8uqhROLJkb3p.jpg'
   },
@@ -667,7 +706,7 @@ export const ingredients = [
     ingredientId: 59,
     name: 'Banana',
     photo_url:
-      'https://www.conservationmagazine.org/wp-content/uploads/2013/04/sterile-banana.jpg'
+      'https://img.freepik.com/vetores-gratis/banana-amarela-madura-inteira-e-picada-de-vetor-isolada-no-fundo-branco_1284-45451.jpg?w=1060&t=st=1669403466~exp=1669404066~hmac=87fb0d71ecd627f935d381b8fa04640a51b906c9429569e410063d65da271bfd'
   },
   {
     ingredientId: 60,
@@ -681,4 +720,202 @@ export const ingredients = [
     photo_url:
       'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
   },
+  {
+    ingredientId: 62,
+    name: 'Achocolatado',
+    photo_url:
+      'https://t3.ftcdn.net/jpg/03/06/94/30/240_F_306943009_RdBsSKp8FJXjk9pkLYC4sH4BmZPM2rxJ.jpg'
+  },
+  {
+    ingredientId: 63,
+    name: 'Chocolate granulado',
+    photo_url:
+      'https://www.magiadoce.pt/wp-content/uploads/2018/06/granulado.jpg'
+  },
+  {
+    ingredientId: 64,
+    name: 'Leite condensado',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/tigela-de-creme-de-leite-condensado-isolado-no-fundo-branco_88281-845.jpg'
+  },
+  {
+    ingredientId: 65,
+    name: 'Gelo',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/cubos-de-gelo-no-fundo-branco_37874-1845.jpg'
+  },
+  {
+    ingredientId: 66,
+    name: 'Bicarbonato',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/bicarbonato-de-sodio-na-colher-de-pau-isolado_72932-424.jpg?w=1380'
+  },
+  {
+    ingredientId: 67,
+    name: 'Açucar',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/acucar-em-uma-placa-de-madeira-isolada-em-um-fundo-branco-foto-de-alta-qualidade_311158-2431.jpg?w=2000'
+  },
+  {
+    ingredientId: 68,
+    name: 'Fermento em pó',
+    photo_url:
+      'https://thumbs.dreamstime.com/b/farinha-de-tapioca-isolada-em-fundo-branco-185711965.jpg'
+  },
+  {
+    ingredientId: 69,
+    name: 'Essência de baunilha',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/vagens-de-baunilha-e-essencia-de-baunilha-em-garrafa-de-vidro_702159-1293.jpg?w=1380'
+  },
+  {
+    ingredientId: 70,
+    name: 'Chocolate',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/pedacos-de-chocolate-ao-leite-e-barra-de-chocolate-isolados-no-fundo-branco-da-ilustracao-3d-de-vista-superior_394271-569.jpg'
+  },
+  {
+    ingredientId: 71,
+    name: 'Chocolate em pó',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/cacau-em-po-com-chocolate-amargo-sobre-fundo-branco_525574-8798.jpg'
+  },
+  {
+    ingredientId: 72,
+    name: 'Nozes ou castanhas',
+    photo_url:
+      'https://img.freepik.com/fotos-gratis/diferentes-frutas-secas_144627-16145.jpg?w=1380&t=st=1669224122~exp=1669224722~hmac=34ee89983331f9d4ecdeebd8ace5b018aaac8b257021b0ab34849f8e7f77606c'
+  },
+  {
+    ingredientId: 73,
+    name: 'Mostarda',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/molho-de-mostarda-em-uma-tigela_88281-2491.jpg?size=626&ext=jpg'
+  },
+  {
+    ingredientId: 74,
+    name: 'Cogumelo',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/saborosos-cogumelos-champignon-isolados-no-fundo-branco_185193-71548.jpg?size=626&ext=jpg'
+  },
+  {
+    ingredientId: 75,
+    name: 'Maionese',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/maionese-isolada-no-branco_88281-1821.jpg?size=626&ext=jpg'
+  },
+  {
+    ingredientId: 76,
+    name: 'Batata palha',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/palha-de-batata-ou-batata-curta-em-uma-tigela-isolada-sobre-fundo-branco_92534-1825.jpg'
+  },
+  {
+    ingredientId: 77,
+    name: 'Fermento biológico',
+    photo_url:
+      'https://thumbs.dreamstime.com/b/fermento-em-uma-colher-22448474.jpg'
+  },
+  {
+    ingredientId: 78,
+    name: 'Cachaça',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/xicara-de-pinga-brasileira-em-fundo-branco-isolado-com-cana-de-acucar-ao-lado_72932-2351.jpg'
+  },
+  {
+    ingredientId: 79,
+    name: 'Molho bolonhesa',
+    photo_url:
+      'https://st4.depositphotos.com/19518982/29814/i/600/depositphotos_298142586-stock-photo-bolognese-also-know-as-bolognesa.jpg'
+  },
+  {
+    ingredientId: 80,
+    name: 'Noz-moscada',
+    photo_url:
+      'https://t3.ftcdn.net/jpg/02/45/30/04/240_F_245300460_JDU8iF7lxoBPld9sgXYzW6ocQpIL1q0A.jpg'
+  },
+  {
+    ingredientId: 81,
+    name: 'Leite',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/leite-integral-natural-em-uma-jarra-e-um-copo-isolado-em-um-fundo-branco_184421-411.jpg?w=2000'
+  },
+  {
+    ingredientId: 82,
+    name: 'Bacon',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/bacon-de-porco-defumado-em-um-fundo-branco_725874-21.jpg'
+  },
+  {
+    ingredientId: 83,
+    name: 'Macarrão',
+    photo_url:
+      'https://img.freepik.com/fotos-gratis/variedade-crua-de-macarrao-no-fundo-branco_23-2148360784.jpg'
+  },
+  {
+    ingredientId: 84,
+    name: 'Polpa de açai',
+    photo_url:
+      'https://cdn.shopify.com/s/files/1/0516/5357/4838/products/AcaiPurissimo-NativeBerries_1000x.jpg?v=1618345658'
+  },
+  {
+    ingredientId: 85,
+    name: 'Xarope de guaraná',
+    photo_url:
+      'https://images.tcdn.com.br/img/img_prod/1053761/xarope_dilute_500ml_sabor_guarana_879_2_e897fc844f62020ccdf2a73635c4c216.png'
+  },
+  {
+    ingredientId: 86,
+    name: 'Milho enlatado',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/de-milho_1472-15593.jpg?w=1380'
+  },
+  {
+    ingredientId: 87,
+    name: 'Coco ralado',
+    photo_url:
+      'https://media.istockphoto.com/id/1204875378/pt/foto/bowl-of-coconut-flakes-on-white-background.jpg?s=612x612&w=0&k=20&c=H4LSpuIImvXa4hxSx3u83-3DNhQrBx96rGvS9GkQDTA='
+  },
+  {
+    ingredientId: 88,
+    name: 'Leite de coco',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/coco-e-copo-de-leite-de-coco-isolado-no-fundo-branco_185193-24590.jpg'
+  },
+  {
+    ingredientId: 89,
+    name: 'Azeite-de-dendê',
+    photo_url:
+      'https://cdn.awsli.com.br/1215/1215170/produto/98800410/68b37ab74c.jpg'
+  },
+  {
+    ingredientId: 90,
+    name: 'Farinha de mandioca',
+    photo_url:
+      'https://media.istockphoto.com/id/1300392101/pt/foto/cassava-flour-in-handmade-pot-natural-organic-flour-from-brazil.jpg?s=612x612&w=0&k=20&c=5yFNTMYrHZ1SM5I5ca5t60Xk1xM5F0_NWCXyb_LReQA='
+  },
+  {
+    ingredientId: 91,
+    name: 'Caldo de camarão',
+    photo_url:
+      'https://st.depositphotos.com/1034372/2470/i/600/depositphotos_24701725-stock-photo-shrimp-soup-dill-bowl-isolated.jpg'
+  },
+  {
+    ingredientId: 92,
+    name: 'Canela',
+    photo_url:
+      'https://img.freepik.com/fotos-gratis/canela-e-seu-po-ao-seu-redor_144627-447.jpg?w=1380&t=st=1669422337~exp=1669422937~hmac=7a8a77e98a2c8c5a24ccf0428ed47456a504ca661eb73af3353b143d5097ed38'
+  },
+  {
+    ingredientId: 93,
+    name: 'Licor de laranja',
+    photo_url:
+      'https://a-static.mlcdn.com.br/1500x1500/cointreau-licor-fino-de-laranja/emporiowiniarski/33984159p/b70442c864d87278d9d641aa10e1c12d.jpg'
+  },
+  {
+    ingredientId: 94,
+    name: 'Sorvete',
+    photo_url:
+      'https://img.freepik.com/fotos-premium/colheres-de-sorvete-em-uma-tigela-sobre-fundo-branco_488220-3938.jpg?w=2000'
+  }
 ];

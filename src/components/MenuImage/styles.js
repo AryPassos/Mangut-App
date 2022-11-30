@@ -6,8 +6,8 @@ const styles = StyleSheet.create({
   },
   headerButtonImage: {
     justifyContent: 'center',
-    width: 25,
-    height: 25,
+    width: 40,
+    height: 40,
     margin: 6
   }
 });
